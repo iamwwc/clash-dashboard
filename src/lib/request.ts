@@ -109,7 +109,7 @@ export async function getExternalControllerConfig () {
         }
     }
 
-    const hostname = getLocalStorageItem('externalControllerAddr', '127.0.0.1')
+    const hostname = getLocalStorageItem('externalControllerAddr', 'localhost')
     const port = getLocalStorageItem('externalControllerPort', '9090')
     const secret = getLocalStorageItem('secret', '')
 
